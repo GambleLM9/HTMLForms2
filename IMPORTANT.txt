@@ -1,0 +1,3 @@
+While going through and checking these projects, i realized my 2nd HTML form project wasn't completed. I guess I must have run
+out of time in class on the last day we did it? I will properly finish it tonight and push the finished version to my github when
+it's complete.

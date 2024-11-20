@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Container*/
+.container{
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+/*Header*/
+.header{
+    background-color: pink;
+}
+.header h2{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.header p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+/*Personal Information*/
+.personal{
+    background-color: bisque;
+    padding: 20px;
+}
+.personal h3{
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+}
+/*Personal: Names*/
+.names{
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+.formname{
+    width: 355px;
+    max-width: 355px;
+}
+.f2{
+    margin-left: 3%;
+}
+#name{
+    width: 100%;
+    padding: 10px;
+}
+/*Personal: Email*/
+.emails{
+    padding-top: 20px;
+    width: 100%;
+}
+.formemail{
+    width: auto;
+}
+#email{
+    width: 100%;
+    padding: 10px;
+}
+/*Personal: Bday*/
+.bdays{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.formbday{
+    width: auto;
+}
+#bday{
+    width: 100%;
+    padding: 10px;
+}
+/*Preferences*/
+.preferences{
+    background-color: plum;
+    padding: 20px;
+}
+.preferences h3{
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+}
+/*Preferences: Experience*/
+.exp{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.formexp{
+    width: auto;
+}
+#experience{
+    width: 100%;
+    padding: 10px;
+}
+/*Preferences: Activities*/
+.activities{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.formactive{
+    width: auto;
+}
+.option{
+    width: 100%;
+    padding: 10px;
+}
+/*Preferences: Duration*/
+.duration{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.formduration{
+    width: auto;
+}
+.slabel{
+    width: 100%;
+    padding: 10px;
+}
+/*Additional Information*/
+.additional{
+    background-color: lightgreen;
+}
