@@ -5,16 +5,29 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 59, 119);
+}
+h2, h3{
+    color: rgb(10, 44, 136);
 }
 /*Container*/
 .container{
     width: 50%;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.subcontainer{
+    width: 90%;
+    margin: auto;
 }
 /*Header*/
 .header{
-    background-color: pink;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 .header h2{
     text-align: center;
@@ -27,8 +40,10 @@ body{
 }
 /*Personal Information*/
 .personal{
-    background-color: bisque;
+    background-color: rgb(240, 240, 240);
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .personal h3{
     border-bottom: 1px solid blue;
@@ -48,7 +63,9 @@ body{
 }
 #name{
     width: 100%;
-    padding: 10px;
+    padding: 10px;border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
 }
 /*Personal: Email*/
 .emails{
@@ -61,6 +78,9 @@ body{
 #email{
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
 }
 /*Personal: Bday*/
 .bdays{
@@ -73,11 +93,16 @@ body{
 #bday{
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
 }
 /*Preferences*/
 .preferences{
-    background-color: plum;
+    background-color: rgb(240, 240, 240);
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .preferences h3{
     border-bottom: 1px solid blue;
@@ -94,6 +119,9 @@ body{
 #experience{
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
 }
 /*Preferences: Activities*/
 .activities{
@@ -107,6 +135,9 @@ body{
     width: 100%;
     padding: 10px;
 }
+#hike, #rock, #kayak, #scuba{
+    cursor: pointer;
+}
 /*Preferences: Duration*/
 .duration{
     padding: 10px 0 10px 0;
@@ -119,10 +150,15 @@ body{
     width: 100%;
     padding: 10px;
 }
+#wknd, #week, #extend{
+    cursor: pointer;
+}
 /*Additional Information*/
 .additional{
-    background-color: lightgreen;
+    background-color: rgb(240, 240, 240);
     padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 .additional h3{
     border-bottom: 1px solid blue;
@@ -139,6 +175,7 @@ body{
 #fitness{
     width: 100%;
     padding: 10px;
+    cursor: pointer;
 }
 /*Additional: Bio*/
 .bio{
@@ -152,6 +189,9 @@ body{
     width: 100%;
     padding: 10px;
     resize: none;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
 }
 /*Additional: Profile*/
 .profile{
@@ -164,4 +204,28 @@ body{
 #profile{
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+}
+/*Agreement*/
+.agreement{
+    padding: 25px 0 25px 0;
+}
+#accept{
+    cursor: pointer;
+}
+/*Submit Button*/
+.submit{
+    width: 100%;
+}
+.submitform{
+    width: auto;
+}
+#submit{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(31, 59, 119);
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
 }

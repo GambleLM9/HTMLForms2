@@ -8,132 +8,134 @@
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h2>Adventure Travel Club</h2>
-            <p>Begin your journey with fellow adventurers</p>
-        </header>
-        
-        <div class="personal">
-            <h3>Personal Information</h3>
-            <div class="names">
-                <form class="formname">
-                    <label class="label" for="name">First Name</label>
-                    <br>
-                    <input type="text" name="name" id="name" required>
-                </form>
-                <form class="formname f2">
-                    <label class="label" for="name">Last Name</label>
-                    <br>
-                    <input type="text" name="name" id="name" required>
-                </form>
+        <div class="subcontainer">
+            <header class="header">
+                <h2>Adventure Travel Club</h2>
+                <p>Begin your journey with fellow adventurers</p>
+            </header>
+            
+            <div class="personal">
+                <h3>Personal Information</h3>
+                <div class="names">
+                    <form class="formname">
+                        <label class="label" for="name">First Name</label>
+                        <br>
+                        <input type="text" name="name" id="name" required>
+                    </form>
+                    <form class="formname f2">
+                        <label class="label" for="name">Last Name</label>
+                        <br>
+                        <input type="text" name="name" id="name" required>
+                    </form>
+                </div>
+                
+                <div class="emails">
+                    <form class="formemail">
+                        <label class="label" for="email">Email Address</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </form>
+                </div>
+
+                <div class="bdays">
+                    <form class="formbday">
+                        <label class="label" for="bday">Date of Birth</label>
+                        <br>
+                        <input type="date" name="bday" id="bday" required>
+                    </form>
+                </div>
+            </div>
+
+            <div class="preferences">
+                <h3>Adventure Prefrences</h3>
+                <div class="exp">
+                    <form class="formexp">
+                        <label for="experience">Experience Level</label>
+                        <br>
+                        <select name="experience" id="experience" required>
+                            <option value="begin">Beginner</option>
+                            <option value="novice">Novice</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="expert">Expert</option>
+                            <option value="master">Master</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div class="activities">
+                    <form class="formactive">
+                        <label for="activities">Preferred Activities</label>
+                        <br>
+                        <input type="checkbox" name="hike" id="hike">
+                        <label class="option" for="hike">Hiking</label>
+                        <br>
+                        <input type="checkbox" name="rock" id="rock">
+                        <label class="option" for="rock">Rock Climbing</label>
+                        <br>
+                        <input type="checkbox" name="kayak" id="kayak">
+                        <label class="option" for="kayak">Kayaking</label>
+                        <br>
+                        <input type="checkbox" name="scuba" id="scuba">
+                        <label class="option" for="scuba">Scuba Diving</label>
+                    </form>
+                </div>
+
+                <div class="duration">
+                    <form class="formduration">
+                        <label for="trip">Preferred Trip Duration</label>
+                        <br>
+                        <input type="radio" name="wknd" id="wknd">
+                        <label class="slabel" for="wknd">Weekend Trips (2-3 Days)</label>
+                        <br>
+                        <input type="radio" name="week" id="week">
+                        <label class="slabel" for="week">Week-Long Adventures (5-7 Days)</label>
+                        <br>
+                        <input type="radio" name="extend" id="extend">
+                        <label class="slabel" for="extend">Extended Expeditions (2+ Weeks)</label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="additional">
+                <h3>Additional Information</h2>
+                <div class="fitness">
+                    <form class="fitform">
+                        <label for="fitness">Fitness Level (1-10)</label>
+                        <br>
+                        <input type="range" name="fitness" id="fitness" min="1" max="10">
+                    </form>
+                </div>
+
+                <div class="bio">
+                    <form class="bioform">
+                        <label for="bio">Tell us about yourself</label>
+                        <br>
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Share your adventure experiences and what excites you about joining our club..."></textarea>
+                    </form>
+                </div>
+
+                <div class="profile">
+                    <form class="profform">
+                        <label for="profile">Profile Photo</label>
+                        <br>
+                        <input type="file" name="profile" id="profile">
+                    </form>
+                </div>
             </div>
             
-            <div class="emails">
-                <form class="formemail">
-                    <label class="label" for="email">Email Address</label>
-                    <br>
-                    <input type="email" name="email" id="email" required>
+
+            <div class="agreement">
+                <form>
+                    <input type="checkbox" name="accept" id="accept">
+                    <label for="accept">I agree to the Terms and Conditions and Privacy Policy</label>
                 </form>
             </div>
 
-            <div class="bdays">
-                <form class="formbday">
-                    <label class="label" for="bday">Date of Birth</label>
-                    <br>
-                    <input type="date" name="bday" id="bday" required>
+            <div class="submit">
+                <form class="submitform">
+                    <input type="submit" name="submit" id="submit" placeholder="Submit">
                 </form>
             </div>
-        </div>
-
-        <div class="preferences">
-            <h3>Adventure Prefrences</h3>
-            <div class="exp">
-                <form class="formexp">
-                    <label for="experience">Experience Level</label>
-                    <br>
-                    <select name="experience" id="experience" required>
-                        <option value="begin">Beginner</option>
-                        <option value="novice">Novice</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="expert">Expert</option>
-                        <option value="master">Master</option>
-                    </select>
-                </form>
-            </div>
-
-            <div class="activities">
-                <form class="formactive">
-                    <label for="activities">Preferred Activities</label>
-                    <br>
-                    <input type="checkbox" name="hike" id="hike">
-                    <label class="option" for="hike">Hiking</label>
-                    <br>
-                    <input type="checkbox" name="rock" id="rock">
-                    <label class="option" for="rock">Rock Climbing</label>
-                    <br>
-                    <input type="checkbox" name="rock" id="rock">
-                    <label class="option" for="kayak">Kayaking</label>
-                    <br>
-                    <input type="checkbox" name="scuba" id="scuba">
-                    <label class="option" for="scuba">Scuba Diving</label>
-                </form>
-            </div>
-
-            <div class="duration">
-                <form class="formduration">
-                    <label for="trip">Preferred Trip Duration</label>
-                    <br>
-                    <input type="radio" name="wknd" id="wknd">
-                    <label class="slabel" for="wknd">Weekend Trips (2-3 Days)</label>
-                    <br>
-                    <input type="radio" name="week" id="week">
-                    <label class="slabel" for="week">Week-Long Adventures (5-7 Days)</label>
-                    <br>
-                    <input type="radio" name="extend" id="extend">
-                    <label class="slabel" for="extend">Extended Expeditions (2+ Weeks)</label>
-                </form>
-            </div>
-        </div>
-
-        <div class="additional">
-            <h3>Additional Information</h2>
-            <div class="fitness">
-                <form class="fitform">
-                    <label for="fitness">Fitness Level (1-10)</label>
-                    <br>
-                    <input type="range" name="fitness" id="fitness" min="1" max="10">
-                </form>
-            </div>
-
-            <div class="bio">
-                <form class="bioform">
-                    <label for="bio">Tell us about yourself</label>
-                    <br>
-                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Share your adventure experiences and what excites you about joining our club..."></textarea>
-                </form>
-            </div>
-
-            <div class="profile">
-                <form class="profform">
-                    <label for="profile">Profile Photo</label>
-                    <br>
-                    <input type="file" name="profile" id="profile">
-                </form>
-            </div>
-        </div>
-        
-
-        <div class="agreement">
-            <form>
-                <input type="checkbox" name="accept" id="accept">
-                <label for="accept">I agree to the Terms and Conditions and Privacy Policy</label>
-            </form>
-        </div>
-
-        <div class="submit">
-            <form>
-                <input type="submit" name="submit" id="submit">
-            </form>
         </div>
     </div>
 </body>
