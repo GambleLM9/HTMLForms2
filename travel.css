@@ -41,8 +41,7 @@ body{
     justify-content: left;
 }
 .formname{
-    width: 355px;
-    max-width: 355px;
+    width: 80%;
 }
 .f2{
     margin-left: 3%;
