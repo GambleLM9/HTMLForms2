@@ -122,4 +122,46 @@ body{
 /*Additional Information*/
 .additional{
     background-color: lightgreen;
+    padding: 20px;
+}
+.additional h3{
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+}
+/*Additional: Fitness level*/
+.fitness{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.fitform{
+    width: auto;
+}
+#fitness{
+    width: 100%;
+    padding: 10px;
+}
+/*Additional: Bio*/
+.bio{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.bioform{
+    width: auto;
+}
+#bio{
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
+/*Additional: Profile*/
+.profile{
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+.profform{
+    width: auto;
+}
+#profile{
+    width: 100%;
+    padding: 10px;
 }
